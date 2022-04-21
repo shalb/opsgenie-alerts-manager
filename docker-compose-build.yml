@@ -1,0 +1,7 @@
+version: '2'
+services:
+  opsgenie-alerts-manager:
+    build:
+      context: ./
+    image: shalb/opsgenie-alerts-manager:0.0.1
+
